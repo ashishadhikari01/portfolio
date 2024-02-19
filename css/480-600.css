@@ -1,0 +1,105 @@
+@media screen and (min-width:481px) and (max-width:600px) {
+    *{
+        margin:0;
+        padding:0;
+    }
+    html{
+        font-size:52%;
+    }
+    .background-image {
+        background-size:cover;
+        background-position:center;
+        height:90vh;
+    }
+    .background-image h1::first-letter{
+        font-size:15rem;
+    }
+    .background-image h1{
+        font-size:4.5rem;
+        position:absolute;
+        top:250px;
+        left:-20px;
+    }
+    .background-image p{
+        position:absolute;
+        top:399px;
+        left:137px;
+        text-shadow:0.5px 0.5px 1px rgb(0, 0, 0);
+        color:rgb(0, 0, 0);
+        /* top:55px;
+        left:-30px; */
+    } 
+
+    .aboutcontent{
+        margin:0 auto;
+        width:90%;
+        padding:30px 0;
+    }
+    .edu{
+        font-size:4.4rem;
+        margin-top:10px;
+    }
+    .saraswati{
+        display:block;
+       margin-top:5px;
+        margin-bottom:20px;
+        column-gap:3%;
+    }
+    .contenttu{
+        font-size:1.9rem;
+        line-height:2.4rem;
+        margin-top:15px;
+    }
+    .canvas{
+        display:block;
+        column-gap:3%;
+        margin-bottom:10px;
+    }
+    .contentneb{
+        font-size:1.9rem;
+        line-height:2.5rem;
+        margin-top:5px;
+       
+    }
+    .aksharalaya{
+        display:block;
+        margin-bottom:15px;
+    }
+    .akcontent{
+        font-size:1.9rem;
+    }
+    .ski{
+        margin-bottom:10px;
+    }
+    .skillcontainer{
+        padding-top:15px;
+        padding-bottom:33px;
+    }
+    .skill-bar{
+        margin:0 auto;
+        width:80%;
+    }
+    .footer1{
+          margin-top:75px;
+    }
+    .np {
+        margin-top:24px;
+    }
+
+    /* ======================== for Reach================================= */
+
+    .message-wrapper{
+        /* border: 2px solid black; */
+        width:90%;
+        margin:30px auto 10px auto;
+    }
+    .get-in-touch{
+        margin-bottom:3px;
+    }
+    .message-wrapper h1 {
+        margin-bottom:5px;
+    }
+  .form form .holder{
+    width:100%;
+  }
+}

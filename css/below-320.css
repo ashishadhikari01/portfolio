@@ -1,0 +1,70 @@
+@media screen and (min-width:200px) and (max-width:319px) {
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .html{
+        font-size:45%;
+    }
+    header nav span {
+          /* font-size:7px; */
+          font-size:1.5rem;
+    }
+    .background-image{
+        height:70vh;
+    }
+    .background-image h1::first-letter {
+        font-size:9rem;
+        
+    }
+    .background-image h1 {
+        font-size:2rem;
+        position:absolute;
+        top:150px;
+        left:-40px;
+    }
+    .background-image p {
+        font-size:1.5rem;
+        position:absolute;
+        top:255px;
+        left:70px;
+        text-shadow:0.5px 0.5px 0.5px rgb(0, 0, 0);
+        color:rgb(0, 0, 0);
+    }
+    .exp,.edu,.ski, .about0{
+        font-size:3rem;
+        padding:5px;
+    }
+    .exp, .ski {
+        margin-top:15px;
+    }
+    .aboutcontent{
+        font-size:2rem;
+        padding:15px 0;
+    }
+    .saraswati,.canvas,.aksharalaya{
+        display:block;
+    }
+    .contenttu, .contentcanvas, .contentak {
+        font-size:1.5rem;
+    }
+    .footer1 {
+        margin-top:50px;
+    }
+    .mail {
+        text-align:center;
+        font-size:1.3rem;
+        margin-left:25px;
+    }
+    .np {
+        margin:5px;
+        font-size:1.2rem;
+    }
+
+    /* ====================for reach============ */
+   .form form .holder{
+    width:100%;
+   }
+
+}

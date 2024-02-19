@@ -1,0 +1,32 @@
+@media screen and (min-width:1025px)
+{
+    *{
+       margin:0;
+       padding:0;
+       box-sizing:border-box;
+    }
+    .background-image h1 {
+        position:absolute;
+        top:200px;
+        left:80px;
+    }
+    .background-image p {
+        position:absolute;
+        top:380px;
+        left:260px;
+        text-shadow:0.5px 0.5px 0.5px rgb(0, 0, 0);
+        color:rgb(0, 0, 0);
+    }
+    .np {
+         margin-top:14px;
+    }
+
+    /* ===================for reach======================= */
+
+    .message-wrapper{
+        margin-top:35px;
+    }
+    .form form .holder{
+        width:75%;
+    }
+}

@@ -1,0 +1,37 @@
+@media screen and (min-width:769px) and (max-width:940px)
+{
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    html{
+        font-size:53%;
+    }
+    .background-image{
+        position:relative;
+    }
+    .background-image h1{
+         position:absolute;
+         top:150px;
+         left:40px;
+    }
+    .background-image p {
+        position:absolute;
+        top:305px;
+        left:200px;
+        text-shadow:0.5px 0.5px 0.5px rgb(0, 0, 0);
+        color:rgb(0, 0, 0);
+    }
+    .np{
+        margin-top:30px;
+    }
+
+    /* ==============for reach================== */
+    .message-wrapper{
+        margin-top:35px;
+    } 
+    .form form .holder {
+        width:100%;
+    }
+}
